@@ -3,7 +3,7 @@ class Config:
 
    UPLOADED_PHOTOS_DEST ='app/static/photos' 
    SECRET_KEY = os.environ.get('SECRET_KEY')
-   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fuad:333@localhost/pitch' 
+   SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fahadbasi:333@localhost/pitch' 
 
 #    email configurations
    MAIL_SERVER = 'smtp.googlemail.com'
@@ -18,11 +18,11 @@ class ProdConfig(Config):
 
     
 class DevConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fuad:333@localhost/pitch'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fahadbasi:333@localhost/pitch'
     DEBUG = True
 
 class TestConfig(Config):
-    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fuad:333@localhost/pitch_test'
+    SQLALCHEMY_DATABASE_URI = 'postgresql+psycopg2://fahadbasi:333@localhost/pitch_test'
         
 
 

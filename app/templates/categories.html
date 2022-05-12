@@ -1,6 +1,6 @@
 
 {% extends 'bootstrap/base.html' %}
-{% import 'macros.html' as macro %}
+{% import 'macros.html' as macro with context %}
 
 {% block navbar %}
         {% include 'navbar.html' %}
@@ -42,4 +42,5 @@
             {{ macro.display(investor) }}
         </div>     
         
-        {% endblock %}       
+        {% endblock %}
+             
