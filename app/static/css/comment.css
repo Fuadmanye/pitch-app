@@ -6,11 +6,11 @@ body{
     background-attachment: fixed;
     
     color: rgb(235, 223, 223);
-    font-size: 17px;
+    font-size: 18px;
     overflow: hidden;
 }
 .col-md-8{
     width: 60%;
     margin-left: 1%;
-    margin-right: 44%;
+    margin-right: 45%;
 }
